@@ -1,0 +1,14 @@
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.AssemblyInfoInputs.cache
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.AssemblyInfo.cs
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.csproj.CoreCompileInputs.cache
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\bin\Debug\net6.0\exercicio_03.exe
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\bin\Debug\net6.0\exercicio_03.deps.json
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\bin\Debug\net6.0\exercicio_03.runtimeconfig.json
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\bin\Debug\net6.0\exercicio_03.dll
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\bin\Debug\net6.0\exercicio_03.pdb
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.dll
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\refint\exercicio_03.dll
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.pdb
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\exercicio_03.genruntimeconfig.cache
+C:\workspace\portfolio\faculdade\programacao_1\exercicio_03\exercicio_03\obj\Debug\net6.0\ref\exercicio_03.dll
