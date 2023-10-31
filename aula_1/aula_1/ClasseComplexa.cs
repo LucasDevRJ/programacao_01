@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace aula_1
 {
-    internal class ClasseComplexa
+    internal class ClasseComplexa : ImprimirValores
     {
         protected int PropInt { get; set; }
         protected bool PropBool { get; set; }
@@ -16,6 +16,7 @@ namespace aula_1
         float floatField;
 
         public Direcoes Direcao { get; set; }
+        public int PropInterface { get; set; }
 
         public enum Direcoes
         {
