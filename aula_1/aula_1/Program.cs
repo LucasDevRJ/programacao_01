@@ -69,6 +69,12 @@ namespace Aula1
             Console.WriteLine($"{texto.compara.Equals(texto2)}");
 
             Console.WriteLine("-----------------------------");
+
+            ClasseComplexa classeComplexa = new ClasseComplexa();
+            classeComplexa.PropInterface = 123;
+
+            ImprimirValores interfaceX = classeComplexa;
+            Console.WriteLine($"{interfaceX.PropInterface}");
         }
     }
 }
