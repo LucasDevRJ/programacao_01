@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aula_1;
+using System;
 using System.Linq.Expressions;
 
 namespace Aula1
@@ -45,11 +46,29 @@ namespace Aula1
             Console.WriteLine("-----------------------------");
 
             var s1 = new string('a', 5);
-            string s2 = new string(new char[5] { 'a' , 'a', 'a', 'a', 'a'});
+            string s2 = new string(new char[5] { 'a', 'a', 'a', 'a', 'a' });
             Console.WriteLine($"{s1 == s2}");
 
             string s3 = string.Concat((new char[5] { 'a', 'a', 'a', 'a', 'a' }).AsEnumerable());
             Console.WriteLine($"{s3}");
+
+            Console.WriteLine("-----------------------------");
+
+            ComparaString texto = new ComparaString()
+            {
+                compara = "123"
+            };
+
+            var texto2 = new ComparaString()
+            {
+                compara = "123"
+            };
+
+            Console.WriteLine($"Comparando com == e com equals");
+            Console.WriteLine($"{texto.compara == texto2.compara}");
+            Console.WriteLine($"{texto.compara.Equals(texto2)}");
+
+            Console.WriteLine("-----------------------------");
         }
     }
 }
