@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\programa",
+    "\\programa\\programa"
   ],
-  "SelectedNode": "\\exercicio_01",
+  "SelectedNode": "\\programa\\programa.sln",
   "PreviewInSolutionExplorer": false
 }
