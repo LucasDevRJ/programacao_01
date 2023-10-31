@@ -8,11 +8,11 @@ namespace aula_1
 {
     internal class ClasseComplexa
     {
-        public int PropInt { get; set; }
-        public bool PropBool { get; set; }
+        protected int PropInt { get; set; }
+        protected bool PropBool { get; set; }
         public decimal MeuDecimal { get; set; }
 
-        DateTime dataAtual;
+        protected DateTime dataAtual;
         float floatField;
 
         public Direcoes Direcao { get; set; }
