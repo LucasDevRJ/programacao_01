@@ -6,6 +6,9 @@
         {
             Exercicio1 exercicio = new Exercicio1();
             exercicio.gerarNumerosInteiros();
+
+            Exercicio2 exercicio2 = new Exercicio2();
+            exercicio2.gerarAlfabeto();
         }
     }
 }
