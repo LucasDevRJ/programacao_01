@@ -8,23 +8,66 @@ namespace aula_2
 {
     internal class Exercicio4
     {
-        public void ExercicioBoxingFilas()
+        public void manipulandoCollections()
         {
-            //iniciando listas
-            var filaGenerics = new FilaGenerics<Animal>(10);
-            var filaObject = new FilaObject(10);
+            var arrayBase = new int[50];
 
-            //instância das classes filhas
-            Cachorro cachorro = new Cachorro();
-            Gato gato = new Gato();
+            for (int i = 0; i < arrayBase.Length; i++)
+            {
+                arrayBase[i] = i;
+            }
 
-            //instância com box para tipo "pai"
-            Animal cachorro2 = new Cachorro();
-            Animal gato2 = new Gato();
+            IEnumerable<int> enumerable = arrayBase;
+            IList<int> lista = arrayBase;
+            ICollection<int> collection = arrayBase;
 
-            //instância com box para interface
-            IBarulhento cachorro3 = new Cachorro();
-            IBarulhento gato3 = new Gato();
+            foreach (var item in enumerable)
+            {
+                Console.WriteLine($"item: {item}");
+            }
+
+            foreach (var item in lista)
+            {
+                Console.WriteLine($"item: {item}");
+            }
+
+            foreach (var item in collection)
+            {
+                Console.WriteLine($"item: {item}");
+            }
+
+            int countAux = 0;
+            foreach (var item in enumerable)
+            {
+                countAux++;
+            }
+
+            Console.WriteLine($"Quantidade Enumerable: {countAux}");
+            Console.WriteLine($"Quantidade Lista: {lista.Count}");
+            Console.WriteLine($"Quantidade Collection: {collection.Count}");
+
+            int contAux2 = 0;
+            foreach (var item in enumerable)
+            {
+                if (countAux == 30)
+                {
+                    Console.WriteLine($"Item 30 do enumerable: {item}");
+                    break;
+                }
+                contAux2++;
+            }
+
+            Console.WriteLine($"Item 30 da lista: {lista[30]}");
+
+            int countAux3 = 0;
+            foreach (var item in collection)
+            {
+                if (countAux3 == 30)
+                {
+                    Console.WriteLine($"Item 30 da collection: {item}");
+                }
+                countAux3++;
+            }
         }
     }
 }
