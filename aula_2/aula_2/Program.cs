@@ -1,4 +1,6 @@
-﻿namespace aula_2
+﻿using System.Linq.Expressions;
+
+namespace aula_2
 {
     class Program
     {
@@ -14,8 +16,9 @@
             //exercicio3.ExercicioBoxingFilas();
 
 
-            Exercicio4 exercicio4 = new Exercicio4();
-            exercicio4.manipulandoCollections();
+            //Exercicio4 exercicio4 = new Exercicio4();
+            //exercicio4.manipulandoCollections();
+
         }
     }
 }
