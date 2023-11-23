@@ -12,7 +12,11 @@ namespace aula_3
             Console.WriteLine("---------------------------------");
 
             Console.WriteLine("----------|Exercício 2|----------");
+            praticaComLambdas.exercicio2();
+            Console.WriteLine("---------------------------------");
 
+            PraticaComLinq praticaComLinq = new PraticaComLinq();
+            praticaComLinq.exercicio1();
         }
     }
 }
