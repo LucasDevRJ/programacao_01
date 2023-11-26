@@ -68,6 +68,26 @@ namespace aula_3
             .OrderByDescending(x => x.Key.Valor)
             .FirstOrDefault()
             .Key;
+
+
+            //Query 2
+            var query2 = queryPessoaComMaiorRecebimento.Pessoa
+                                                        .Pedidos
+                                                        .GroupBy(x => x.Value.Produto)
+                                                        .Select(x => new
+                                                        {
+                                                            Produto = x.Key,
+                                                            Valor = x.Sum(g => g.Value.Pagamentos.Select(p => p.Valor).Sum())
+                                                        });
+                   ;
+
+            //Query 3
+            var produtoComMaisPedidos = pedidos.GroupBy(x => x.Produto).Select(g => new
+            {
+                Produto = g.Key,
+                QtdPedidos = g.Count()
+            })
+                .OrderByDescending(x => x.QtdPedidos);
         }
     }
 
