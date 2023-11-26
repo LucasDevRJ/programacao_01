@@ -26,6 +26,7 @@ namespace aula_3
                 }
             }
 
+            //Query 1
             var queryEstudantes = from n in nomes
                                   let avaliacoesEstudante = (from a in avaliacoes
                                                              where a.Nome == n
@@ -36,6 +37,22 @@ namespace aula_3
                                       Nome = n,
                                       Media = avaliacoesEstudante.Average(x => x.Nota)
                                   };
+
+            //Query 2
+            var listaDeEstudantes = queryEstudantes.ToList();
+            var estudanteMaiorNota = listaDeEstudantes.SelectMany(e => e.avaliacoes)
+                .Where(a => a.Nome == "Programação I")
+                .OrderByDescending(x => x.Nota)
+                .Select(a => a.Nome);
+
+            //Query 3
+            var queryMediaNotas = listaDeEstudantes.SelectMany(e => e.avaliacoes)
+                .GroupBy(e => e.Nome)
+                .Select(x => new
+                {
+                    Materia = x.Key,
+                    MediaNota = x.Average(m => m.Nota)
+                }); 
         }
 
         public class Estudante

@@ -15,8 +15,8 @@ namespace aula_3
             praticaComLambdas.exercicio2();
             Console.WriteLine("---------------------------------");
 
-            PraticaComLinq praticaComLinq = new PraticaComLinq();
-            praticaComLinq.exercicio1();
+            //PraticaComLinq praticaComLinq = new PraticaComLinq();
+            //praticaComLinq.exercicio1();
         }
     }
 }
