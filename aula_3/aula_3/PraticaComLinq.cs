@@ -52,7 +52,12 @@ namespace aula_3
                 {
                     Materia = x.Key,
                     MediaNota = x.Average(m => m.Nota)
-                }); 
+                });
+
+            //Query 4
+            var queryNotasCalculadas = listaDeEstudantes.SelectMany(e => e.avaliacoes)
+                                                        .Where(a => a.Nome == "Cálculo II" && a.NomeAluno.ToLower().Contains("a"))
+                                                        .OrderByDescending(x => x.Nota);
         }
 
         public class Estudante

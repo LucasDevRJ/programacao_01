@@ -17,6 +17,8 @@ namespace aula_3
 
             //PraticaComLinq praticaComLinq = new PraticaComLinq();
             //praticaComLinq.exercicio1();
+
+            PraticaComExecucaoTardia praticaComExecucaoTardia = new PraticaComExecucaoTardia();
         }
     }
 }
