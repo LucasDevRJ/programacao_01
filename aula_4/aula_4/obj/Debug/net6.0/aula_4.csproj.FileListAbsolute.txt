@@ -1,0 +1,14 @@
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\bin\Debug\net6.0\aula_4.exe
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\bin\Debug\net6.0\aula_4.deps.json
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\bin\Debug\net6.0\aula_4.runtimeconfig.json
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\bin\Debug\net6.0\aula_4.dll
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\bin\Debug\net6.0\aula_4.pdb
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.AssemblyInfoInputs.cache
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.AssemblyInfo.cs
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.csproj.CoreCompileInputs.cache
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.dll
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\refint\aula_4.dll
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.pdb
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\aula_4.genruntimeconfig.cache
+C:\workspace\portfolio\faculdade\programacao_1\aula_4\aula_4\obj\Debug\net6.0\ref\aula_4.dll
