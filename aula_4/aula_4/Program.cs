@@ -13,8 +13,11 @@ namespace aula_4
             Console.WriteLine("Threads");
             Console.WriteLine("--------------------");
 
-            ThreadPing exercicio1 = new ThreadPing();
-            exercicio1.StartPing();
+            //ThreadPing exercicio1 = new ThreadPing();
+            //exercicio1.StartPing();
+
+            PessoaFinder exercicio3 = new PessoaFinder();
+            exercicio3.ExercicioPessoaAsync();
         }
     }
 }
